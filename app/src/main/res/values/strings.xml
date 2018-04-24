@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HD Web Studio</string>
+    <string name="company_description">HD Web Studio is the region\'s premier web design and web development company with locations in Martinsville, Virginia and Danville, Virginia</string>
+    <string name="address">1 West Church Street\nSuite A\nMartinsville, VA 24112</string>
+    <string name="website">www.hdwebstudio.com/</string>
+    <string name="email">info@hdwebstudio.com</string>
+    <string name="phone">276.666.2266</string>
+    <string name="business_hours">Monday-Friday 8:30am to 5:00pm</string>
+</resources>
