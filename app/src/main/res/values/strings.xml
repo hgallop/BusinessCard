@@ -8,4 +8,5 @@
     <string name="phone">(276)666&#8211;2266</string>
     <string name="business_hours">Monday-Friday 8:30am to 5:00pm</string>
     <string name="logo_description">H D Web Logo. An H, a D, and the words web studio.</string>
+    <string name="logo_description_sm">H D logo</string>
 </resources>

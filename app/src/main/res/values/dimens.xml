@@ -2,4 +2,5 @@
 <resources>
     <dimen name="padding">10dp</dimen>
     <dimen name="margin">16dp</dimen>
+    <dimen name="icon">48dp</dimen>
 </resources>
