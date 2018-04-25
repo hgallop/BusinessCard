@@ -43,12 +43,9 @@
             app:layout_constraintVertical_bias="0.33" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/ViewsStyle"
             android:autoLink="phone"
             android:background="@drawable/rounded_background"
-            android:gravity="center"
-            android:padding="@dimen/padding"
             android:text="@string/phone"
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -65,7 +62,6 @@
             android:background="@drawable/rounded_background"
             android:gravity="center"
             android:padding="@dimen/padding"
-            android:radius="@dimen/margin"
             android:text="@string/company_description"
             android:textColor="@color/colorPrimaryDark"
             app:layout_constraintBottom_toBottomOf="parent"
