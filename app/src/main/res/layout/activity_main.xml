@@ -13,60 +13,76 @@
         android:background="@drawable/hdweboffices">
 
         <ImageView
+            android:id="@+id/logo_lg"
             style="@style/ViewsStyle"
+            android:layout_margin="@dimen/margin"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/logo_description"
             android:src="@drawable/hdweblogolg"
-            android:layout_margin="@dimen/margin"
-            app:layout_constraintBottom_toTopOf="@id/address"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.039" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/address"
             style="@style/ViewsStyle"
             android:autoLink="map"
             android:text="@string/address"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/phone"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.33" />
+            app:layout_constraintVertical_bias="0.853" />
 
         <TextView
+            android:id="@+id/phone"
             style="@style/ViewsStyle"
+            android:layout_height="44dp"
             android:autoLink="phone"
             android:text="@string/phone"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/description"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.525" />
+            app:layout_constraintVertical_bias="0.867" />
 
         <TextView
+            android:id="@+id/description"
             style="@style/ViewsStyle"
+            android:layout_width="0dp"
             android:layout_margin="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
             android:text="@string/company_description"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintBottom_toTopOf="@id/website"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.68" />
+            app:layout_constraintVertical_bias="0.956" />
 
         <TextView
+            android:id="@+id/website"
             style="@style/ViewsStyle"
+            android:layout_marginTop="448dp"
             android:autoLink="web"
             android:text="@string/website"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.833" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
+            android:id="@+id/logo_sm"
             android:layout_width="@dimen/icon"
             android:layout_height="@dimen/icon"
             android:background="@drawable/rounded_background"
@@ -76,8 +92,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.969" />
+            app:layout_constraintTop_toBottomOf="@id/website"
+            app:layout_constraintVertical_bias="0.714" />
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>
