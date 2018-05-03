@@ -5,4 +5,5 @@
     <dimen name="icon">48dp</dimen>
     <dimen name="imgW">250dp</dimen>
     <dimen name="imgH">113dp</dimen>
+    <dimen name="sm_margin">8dp</dimen>
 </resources>
